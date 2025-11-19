@@ -29,7 +29,7 @@ export default function Header() {
   ];
   return (
     <nav className="fixed top-0 w-full bg-bg/50   backdrop-blur-xl">
-      <div className="w-full max-w-[90vw]  mx-auto flex justify-between bg-transparent py-3">
+      <div className="w-full w-container  mx-auto flex justify-between bg-transparent py-3">
         <div className="flex items-center relative top-1">
           <Link
             href="#hero"
@@ -49,9 +49,9 @@ export default function Header() {
             </Link>
           ))}
 
-          <button className="h-full text-accent border border-accent text-sm px-4 py-2 rounded-sm hover:bg-accent-light hover:border-accent-torch transition-all duration-300 cursor-pointer">
+          {/* <button className="h-full text-accent border border-accent text-sm px-4 py-2 rounded-sm hover:bg-accent-light hover:border-accent-torch transition-all duration-300 cursor-pointer">
             Resume
-          </button>
+          </button> */}
         </div>
       </div>
     </nav>
