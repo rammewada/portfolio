@@ -14,7 +14,7 @@ export default function BorderedButton({
     <Link
       target="_blank"
       className={cn(
-        "inline-flex items-center bg-dark-3 text-dark-1  border border-dashed border-text hover:border-accent py-0.5 px-2 ml-2 rounded-md ",
+        "inline-flex items-center bg-dark-3 text-dark-1  border border-dashed border-text hover:border-accent py-1 px-2  rounded-md ",
         textColor
       )}
       href="https://www.typescriptlang.org/"

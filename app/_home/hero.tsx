@@ -29,15 +29,15 @@ export default function Hero() {
             <BorderedButton text="Typescript">
               <Icon icon="vscode-icons:file-type-typescript-official" />
             </BorderedButton>{" "}
-            ,
+            ,{" "}
             <BorderedButton text="React">
               <Icon icon="vscode-icons:file-type-reactjs" />
             </BorderedButton>{" "}
-            ,
+            ,{" "}
             <BorderedButton text="Next">
               <Icon icon="logos:nextjs-icon" />
             </BorderedButton>{" "}
-            and
+            and{" "}
             <BorderedButton text="Tailwind CSS">
               <Icon icon="devicon:tailwindcss" />
             </BorderedButton>{" "}
