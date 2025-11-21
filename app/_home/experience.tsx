@@ -9,7 +9,7 @@ import BorderedButton from "@/components/borderedButton";
 export default function Experience() {
   return (
     <section>
-      <div className="h-screen w-container margin-top">
+      <div className="w-container margin-top">
         <div>
           <p className="text-text text-sm">Featured</p>
           <h2 className="text-dark-1 text-2xl font-bold">Experience</h2>
@@ -61,12 +61,12 @@ export default function Experience() {
             </div>
           </div>
           <div className=" text-text text-right">
-            <p className="">Novomber 2024 - Present</p>
+            <p className="">November 2024 - Present</p>
             <p className="">Indore, India (On-Site)</p>
           </div>
         </div>
-        <div>
-          <h4 className="mt-6 font-medium text-dark-1">Technologies & Tools</h4>
+        <div className="mt-6">
+          <h4 className="font-medium text-dark-1">Technologies & Tools</h4>
           <div className="mt-2 flex flex-wrap gap-2">
             <BorderedButton text="Next.js">
               <Icon icon="logos:nextjs-icon" />
@@ -105,6 +105,69 @@ export default function Experience() {
               <Icon icon="devicon:vercel" />
             </BorderedButton>
           </div>
+        </div>
+        <div className="mt-6">
+          <h4 className="font-medium text-dark-1">Key Contributions</h4>
+          <ul className="mt-2 text-text list-disc list-outside space-y-1 pl-3">
+            <li>
+              High-Volume Delivery - Successfully delivered 9+ production
+              websites using Next.js, React, and TypeScript
+            </li>
+            <li>
+              Performance & SEO Optimization - Improved website performance
+              through code optimization, lazy loading, and SEO best practices
+            </li>
+            <li>
+              Admin Dashboard Development - Built secure admin panels with
+              NextAuth authentication and role-based access control
+            </li>
+            <li>
+              State Management - Implemented Redux for global state and React
+              Query for efficient server data fetching and caching
+            </li>
+            <li>
+              UI/UX Excellence - Crafted pixel-perfect, responsive interfaces
+              using Tailwind CSS with smooth GSAP animations
+            </li>
+            <li>
+              Code Quality - Refactored and optimized codebases for better
+              maintainability and reduced load times
+            </li>
+            <li>
+              Technical Stack Mastery - Gained expertise in Next.js, TypeScript,
+              Tailwind CSS, Redux, React Query, and NextAuth
+            </li>
+          </ul>
+        </div>
+        <div className="mt-6 border bg-chart-2/10 border-chart-2 rounded-md p-6">
+          <h4 className="font-medium text-chart-2 text-lg">Key Learning</h4>
+          <ul className="mt-2  text-chart-2 list-disc list-outside space-y-1 pl-3 ">
+            <li>
+              Next.js & TypeScript - Mastered modern React framework with
+              type-safe development
+            </li>
+            <li>
+              Data Fetching Patterns - React Query for server state and Redux
+              for client state management
+            </li>
+            <li>
+              Performance Optimization - Code splitting, image optimization, and
+              Core Web Vitals improvements
+            </li>
+            <li>
+              Authentication - Secure user authentication and authorization with
+              NextAuth
+            </li>
+            <li>
+              Responsive Design - Advanced Tailwind CSS techniques for
+              mobile-first development
+            </li>
+            <li>Animation - Creating engaging user experiences with GSAP</li>
+            <li>
+              SEO Best Practices - Meta tags, structured data, and technical SEO
+              implementation
+            </li>
+          </ul>
         </div>
       </div>
     </section>

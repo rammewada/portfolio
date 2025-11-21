@@ -16,7 +16,7 @@ type SocialLinkType = {
 };
 export default function Hero() {
   return (
-    <section className="h-screen ">
+    <section className=" ">
       <div className="w-container pt-25">
         <div>
           <p className="text-text font-mono">Hi, I'm Ram</p>
