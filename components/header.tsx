@@ -28,7 +28,7 @@ export default function Header() {
     },
   ];
   return (
-    <nav className="fixed top-0 w-full bg-bg/50   backdrop-blur-xl">
+    <nav className="fixed top-0 w-full bg-bg/50   backdrop-blur-xl z-999">
       <div className="w-full w-container  mx-auto flex justify-between bg-transparent py-3">
         <div className="flex items-center relative top-1">
           <Link
