@@ -6,11 +6,12 @@ import About from "./_home/about";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="relative">
       <Hero />
       <Experience />
       <Projects />
       <About />
+      <div className="h-10  w-full fixed z-10 bottom-0 left-0   bg-linear-0 from-bg via-bg/40 to-transparent "></div>
     </main>
   );
 }

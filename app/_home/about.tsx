@@ -7,7 +7,7 @@ export default function About() {
     <section>
       <div className="pb-20 w-container margin-top">
         <div>
-          <p className="text-text text-sm">Featured</p>
+          <p className="text-text text-sm">About</p>
           <h2 className="text-dark-1 text-2xl font-bold">Me</h2>
         </div>
         <div className="grid grid-cols-[200px_1fr] gap-6 mt-4 ">
